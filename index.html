@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="layout_style.css">
+    <link rel="shortcut icon" href="static/logo.ico" />
+    
+        <meta charset="utf-8">
+        <title>TS Card - Felipe Dias</title>
+
+        <style>
+            body {
+                color: white;
+                font-weight: lighter;
+            }
+
+            h1, h2, h3 {
+                margin: 0 15%;
+            }
+
+            section {
+                border-radius: 25px;
+                background-color: #1c1c1c;
+            }
+
+            section h1, b{
+   /*             background: -webkit-linear-gradient(30deg,  #919191, #f0f0f0, #919191);*/
+                background: -webkit-linear-gradient(30deg,  #874500,  #ff8200, #874500);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+ /*               text-shadow: 1px 1px 4px rgba(0,0,0,0.62);*/
+
+            }
+
+            section h2 {
+                font-size: 40px;
+                padding: 20px 0px;
+
+                background: -webkit-linear-gradient(30deg, #f0f0f0,  #919191);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            div h3 {
+                font-size: 1.25vw;
+            }
+
+            #title {
+                padding-top: 150px;
+                padding-bottom: 150px;
+                text-align: center;
+                background-color: black;
+/*
+                background-color: black;
+                background-image: url(cover.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;*/
+            }
+
+            #title h1 {
+                font-size: 150px;
+            }
+
+            #title img {
+                width: 100%;
+                max-width: 1200px;
+            }
+
+            #marketing {
+                text-align: center;
+                background-color: black;
+                padding: 120px;
+            }
+
+            #ponte {
+                background-color: black;
+            }
+
+            .title5 {
+                background: -webkit-linear-gradient(30deg,  #FF00AA, #AA00FF, #00AAFF);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .half, .seven{
+                display: flex;
+                flex-direction: row;
+                margin: 0 15%;
+                padding: 5% 0;
+            }
+
+            .half img {
+                width: 100%;
+                height: auto;
+            }
+
+            .half div {
+                width: 50%;
+                display: block;
+                margin: auto 0;
+            }
+
+            .seven div {
+                display: block;
+                margin: auto 0;
+                width: 50%;
+            }
+
+            .adias {
+                height: auto;
+            }
+
+            .gif {
+                margin: auto;
+                width: 100%;
+                height: auto;
+            }
+
+
+            .draw {
+                width: 100%;
+                height: auto;
+            }
+
+            @media screen and (max-width: 1080px) {
+
+                div h3 {
+                    font-size: 20px;
+                }
+
+                #title h1 {
+                    font-size: 100px;
+                }
+
+                #marketing {
+                    padding: 150px 20px;
+                }
+
+                .half, .seven {
+                    display: block;
+                    align-items: center;
+                    margin: 0 5%;
+                }
+
+                .half div, .seven div {
+                    width: 100%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        
+         <div class="topnav" id="myTopnav">
+      <a href="https://api.whatsapp.com/send?phone=5511952917139&text=Quero%20um%20TS%20Card!"><button class = "btn">Comprar</button></a>
+      <a href="/" class="logo_barra"><img src="Logo.png" class="logo"></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+        
+        <section id="title">
+            <h1>TS Card</h1>
+            <h2>Seu cartão de visitas na internet.</h2>
+            <img src="cover2.png">
+        </section>
+        <br>
+        <section class="half">
+            <!-- 50% -->
+            <div>
+                <img src="first.png" class="first">
+            </div>
+
+            <div>
+                <h2 class="title1">Esteja ao alcance de seus clientes.</h2>
+                <h3><b>Um clique.</b> Um clique é todo o necessário para seu cliente ter acesso instantâneo à todas as suas páginas<br>
+                    Aprimoramos a experiência do cliente trazendo conforto e facilidade na hora de entrar em contato - um diferencial necessário hoje em dia.</h3>
+            </div>
+        </section>
+        <br>
+        <section id="marketing">
+            <!-- full -->
+            <div>
+                <h2 id="2">O marketing da experiência</h2>
+                <h3>Hoje em dia, a maior diferenciação no mercado encontra-se na experiência que o consumidor tem com o seu produto/serviço.</h3>
+                <h3>Promover uma interação personalizada, profissional e rápida, impacta diretamente na recepção e percepção de valor que você recebe de seus clientes.</h3>
+            </div>
+        </section>
+        <br>
+        <section class="seven">
+            <!-- 70% -->
+            <div>
+                <h2 id="3">3 passos.</h2>
+                <h3>O TS Card permite que a comunicação tenha 3 passos: <b>Abrir, Clicar, Falar</b></h3><br>
+                <h3>O TS Card é um cartão interativo. Ao clicar em seus ícones os usuários são direcionados para a sua página do facebook, seu perfil do instagram, até mesmo para fazerem uma ligação ou iniciarem uma conversa no WhatsApp!</h3><br>
+                <h3>Seu cliente não precisa nem fazer o esforço de copiar o seu nome ou o seu número de WhatsApp para poder falar com você. Uma barreira a menos para estabelecer o contato.</h3>
+            </div>
+
+            <div>
+                <img src="3-passos.png" class="adias">
+            </div>
+        </section>
+        <br>
+        <section class="half" id="ponte">
+            <!-- 50% outro lado -->
+            <div>
+                <h2 id="4">A ponte entre os dois mundos.</h2>
+                <h3>Conecte o mundo real com o mundo digital através do <b>QR Code!</b></h3>
+                <h3>A partir do QR Code, seu cliente consegue acessar seu TS Card de uma maneira mais rápida e, consequentemente, encontra você no mundo digital!</h3>
+            </div>
+
+            <div>
+                <img src="qrcode.gif" class="gif">
+            </div>
+        </section>
+        <br>
+        <section class="seven">
+            <!-- 70% -->
+            <div>
+                <img src="draw.png" class="draw">
+            </div>
+
+            <div>
+                <h2 class="title5">Completamente seu.</h2>
+                <h3>O TS Card é totalmente desenhado e elaborado para ser único e excluisvo seu! Desde as cores e os padrões do fundo até à forma dos ícones, os elementos são pensadas para integrar com sua identidade
+                visual ao mesmo tempo em que carrega toda a modernidade intrísica ao TS Card.</h3>
+                <h3>Além do design, as funcionalidades são definidas de acordo com a sua necessidade. Variando desde um único símbolo até a um cardápio completo, criamos para que você presenteie
+                seus clientes com uma experiência incrível!</h3>
+            </div>
+        </section>
+        
+        
+        <section class="footer">
+      <p>Felipe Dias</p>
+
+      <div class="links">
+        <a href="http://instagram.com/fe_sdias">Instagram</a>
+        <a href="http://facebook.com/fe_sdias">Facebook</a>
+        <a href="mailto:felipesantanadias@gmail.com">Email</a>
+        <a href="/quemsomos">Quem eu sou</a>
+      </div>
+    </section>
+
+    </body>
+</html>
